@@ -1,0 +1,36 @@
+{ pkgs, ... }: {
+  environment.systemPackages = with pkgs; [
+  	cewl
+	bully
+	crowbar
+	dislocker
+	hashcat
+	hash-identifier
+	hcxtools
+	john
+	johnny
+	kerbrute
+	medusa
+	pdfcrack
+	mimikatz
+	python313Packages.pypykatz
+	rarcrack
+	reaverwps-t6x
+	sslscan
+	thc-hydra
+	pixiewps
+	libargon2
+	libgcrypt
+	onesixtyone
+	veracrypt
+	wifite2
+	xortool
+	brutespray
+	bruteforce-luks
+	netexec
+	airgeddon
+	aircrack-ng
+	arp-scan
+	aircrack-ng
+  ];
+}

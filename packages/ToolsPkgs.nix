@@ -1,0 +1,47 @@
+{ pkgs, ... }: {
+  environment.systemPackages = with pkgs; [
+  openvpn
+	mullvad
+	mullvad-vpn
+	mullvad-browser
+ 	metasploit
+	python313Packages.impacket
+	python313Packages.httpx
+	python313Packages.ldapdomaindump
+	proxychains-ng
+	tailscale
+	ngrok
+	netsniff-ng
+	hping
+	httping
+	hackrf
+	ldapdomaindump
+	fping
+	freeipmi
+	dnsmasq
+	creds
+	freerdp
+	xrdp
+	snort
+	wireshark
+	smbclient-ng
+	ettercap
+	bettercap
+	responder
+	laudanum
+	linux-exploit-suggester
+	tcpdump
+	tcpflow
+	tcpreplay
+	stunnel
+	torsocks
+	udp2raw
+	udpreplay
+	udptunnel
+	ssh-mitm
+  lynis
+	# Wordlists
+	payloadsallthethings
+	seclists
+  ];
+}
